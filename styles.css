@@ -48,3 +48,17 @@ section {
 .github-link:hover {
   background-color: #1e40af;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  section {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
