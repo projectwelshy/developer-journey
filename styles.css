@@ -34,6 +34,21 @@ section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+.learning-box {
+  display: flex;
+  gap: 20px;
+}
+
+.learning-card {
+  margin: 40px auto;
+  border: 1px solid lightgray;
+  padding: 40px;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .github-link {
   background-color: #1e3a8a;
   color: white;
