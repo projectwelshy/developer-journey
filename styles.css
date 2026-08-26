@@ -44,7 +44,6 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-
 h1 {
   color: #1e3a8a;
   font-size: 40px;
@@ -76,6 +75,18 @@ section {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.learning-card select {
+  border: 1px solid lightgray;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.learning-card label {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .github-link {
