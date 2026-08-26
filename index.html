@@ -15,13 +15,14 @@
       </p>
 
       <nav aria-label="Main navigation">
+        <a href="#learning-goals">What I want to learn</a>
         <a href="#goals">Goals</a>
         <a href="#learning">Learning</a>
         <a href="https://github.com/projectwelshy">GitHub</a>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="learning-goals">
         <h2>What I want to learn</h2>
         <ul>
           <li>Frontend</li>
@@ -51,24 +52,44 @@
           manager in my job
         </p>
       </section>
-      <section>
-<section id="learning">
+      <section id="learning">
         <h2 class="learning-heading">What I'm Learning</h2>
 
         <div class="learning-box">
           <div class="learning-card">
             <h3>HTML</h3>
             <p>Building the structure of pages</p>
+            <label for="html-status">Status</label>
+            <select id="html-status" name="html-status">
+              <option value="not-started">Not started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="learning" selected>Learning</option>
+              <option value="completed">Completed</option>
+            </select>
           </div>
 
           <div class="learning-card">
             <h3>CSS</h3>
             <p>Styling and responsive layouts</p>
+            <label for="css-status">Status</label>
+            <select id="css-status" name="css-status">
+              <option value="not-started">Not started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="learning" selected>Learning</option>
+              <option value="completed">Completed</option>
+            </select>
           </div>
 
           <div class="learning-card">
             <h3>Git & GitHub</h3>
             <p>Tracking and sharing my code</p>
+            <label for="git-status">Status</label>
+            <select id="git-status" name="git-status">
+              <option value="not-started">Not Started</option>
+              <option value="in-progress">In Progress</option>
+              <option value="learning" selected>Learning</option>
+              <option value="completed">Completed</option>
+            </select>
           </div>
         </div>
       </section>
